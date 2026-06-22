@@ -411,7 +411,7 @@ knn = KNeighborsRegressor(n_neighbors=5)
 knn.fit(X_train, y_train)  
 ________________________________________  
 Step 11: Predict Using KNN  
-# Predict Bitcoin prices  
+**# Predict Bitcoin prices**  
 knn_pred = knn.predict(X_test)  
 ________________________________________  
 Step 12: Evaluate KNN Regression  
