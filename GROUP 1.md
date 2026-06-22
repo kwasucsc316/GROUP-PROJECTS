@@ -1,8 +1,3 @@
-# **DEPARTMENT OF COMPUTER SCIENCE**
-
-## **Kwara State University (KWASU)**
-
-### **CSC 316 — MACHINE LEARNING**
 
 ---
 
