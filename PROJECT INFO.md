@@ -1,35 +1,72 @@
-As part of your practical activities in machine learning, you will be working in groups to solve both classification and regression problems using textual and numerical datasets.
+# **FACULTY OF ICT**
+
+## **DEPARTMENT OF COMPUTER SCIENCE**
+
+---
+
+# **COURSE INFORMATION**
+
+**COURSE CODE:** KWASU CSC316
+**COURSE TITLE:** MACHINE LEARNING
+**LECTURER IN CHARGE:** Dr Mrs Ronke Babatunde
+
+---
+
+# **COURSE PRACTICAL INSTRUCTIONS**
+
+As part of your practical activities in Machine Learning, you will be working in groups to solve both **classification** and **regression** problems using textual and numerical datasets.
 
 Each group has been assigned:
 
-- One classification dataset with specific algorithms
+* One **classification dataset** with specific algorithms
+* One **regression dataset** with specific algorithms
 
-- One regression dataset with specific algorithms
+---
 
+# **IMPORTANT INSTRUCTION**
 
+All groups are required to download their assigned datasets using the links provided and **work strictly with them**.
 
-Important Instruction:
-All groups are required to download their assigned datasets using the links provided below and work strictly with them.
+---
 
+# **GENERAL GUIDELINES**
 
-General Guidelines:
-1. Perform proper data preprocessing (handling missing values, encoding, scaling where necessary).
+Students are expected to:
 
-2. Train and evaluate your models using the assigned algorithms only.
+1. Perform proper **data preprocessing**, including:
 
-3. For classification, use metrics such as Accuracy, Precision, Recall, and F1-score.
+   * Handling missing values
+   * Encoding categorical variables
+   * Feature scaling where necessary
 
-4. For regression, use metrics such as MAE, MSE, and R² score.
+2. Train and evaluate models using **only the assigned algorithms**
 
-5. Compare the performance of your models and discuss your findings.
+3. For **classification tasks**, use the following evaluation metrics:
 
+   * Accuracy
+   * Precision
+   * Recall
+   * F1-score
 
+4. For **regression tasks**, use the following evaluation metrics:
 
-Submission Requirements:
-- Well-documented Jupyter Notebook
+   * Mean Absolute Error (MAE)
+   * Mean Squared Error (MSE)
+   * R² Score
 
-- Short report explaining methodology and results
+5. Compare model performance and clearly discuss findings.
 
+---
 
+# **SUBMISSION REQUIREMENTS**
 
+Each group must submit:
 
+* A **well-documented Jupyter Notebook**
+* A **short report** explaining:
+
+  * Methodology
+  * Model implementation
+  * Results and discussion
+
+---
