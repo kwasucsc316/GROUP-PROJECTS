@@ -1,37 +1,37 @@
-**ASSIGNED DATASETS AND ALGORITHMS**
-•	Classification (Fake News): SVM, Random Forest
-•	Regression (Bitcoin Price): Linear Regression, KNN
+**ASSIGNED DATASETS AND ALGORITHMS**  
+•	Classification (Fake News): SVM, Random Forest  
+•	Regression (Bitcoin Price): Linear Regression, KNN  
 
-**PART A: FAKE NEWS DETECTION (CLASSIFICATION)**
-Fake News Detection Using Support Vector Machine (SVM) and Random Forest Classification Algorithms
+**PART A: FAKE NEWS DETECTION (CLASSIFICATION)**  
+Fake News Detection Using Support Vector Machine (SVM) and Random Forest Classification Algorithms  
 
-**Introduction**
-Fake news has become a major challenge in the digital age, spreading misinformation and influencing public opinion. Machine learning techniques can be used to automatically classify news articles as either fake or true based on their textual content. This practical focuses on developing and evaluating machine learning models for fake news detection using Support Vector Machine (SVM) and Random Forest algorithms.
+**Introduction**  
+Fake news has become a major challenge in the digital age, spreading misinformation and influencing public opinion. Machine learning techniques can be used to automatically classify news articles as either fake or true based on their textual content. This practical focuses on developing and evaluating machine learning models for fake news detection using Support Vector Machine (SVM) and Random Forest algorithms.  
 
-**Objectives**
-The objectives of this practical are to:
-1.	Load and preprocess the Fake News dataset.
-2.	Convert textual data into numerical representations suitable for machine learning.
-3.	Train classification models using SVM and Random Forest algorithms.
-4.	Evaluate the performance of the models using standard classification metrics.
-5.	Compare the effectiveness of both algorithms in detecting fake news.
+**Objectives**  
+The objectives of this practical are to:  
+1.	Load and preprocess the Fake News dataset.  
+2.	Convert textual data into numerical representations suitable for machine learning.  
+3.	Train classification models using SVM and Random Forest algorithms.  
+4.	Evaluate the performance of the models using standard classification metrics.  
+5.	Compare the effectiveness of both algorithms in detecting fake news.  
 
-**Dataset Description**
-The dataset consists of two files:
-•	Fake.csv: Contains fake news articles.
-•	True.csv: Contains genuine news articles.
-Each dataset contains the following attributes:
-•	Title
-•	Text
-•	Subject
-•	Date
-A new column called "label" was created where:
-•	0 represents Fake News
-•	1 represents True News
-The two datasets were merged into a single dataset for model training and evaluation.
+**Dataset Description**  
+The dataset consists of two files:  
+•	Fake.csv: Contains fake news articles.  
+•	True.csv: Contains genuine news articles.  
+Each dataset contains the following attributes:  
+•	Title  
+•	Text  
+•	Subject  
+•	Date  
+A new column called "label" was created where:  
+•	0 represents Fake News  
+•	1 represents True News  
+The two datasets were merged into a single dataset for model training and evaluation.  
 
-**Methodology**
-a) Data Preprocessing
+**Methodology**  
+a) Data Preprocessing  
 The following preprocessing steps were performed:
 1.	Loaded Fake.csv and True.csv using Pandas.
 2.	Added labels to distinguish fake and true news.
